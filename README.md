@@ -40,4 +40,17 @@ dependencies {
 .....
 ```            
 
+
+<h2>Attributes includes:</h2>
+
+| Value         | Type |
+| ------------- |:-------------:|
+| inputType      | ```android:inputType``` |
+| otp_maxLength      | ```app:otp_maxLength``` |
+| otp_gravity      | ```app:otp_gravity``` |
+| otp_textColor      | ```app:otp_textColor``` |
+| otp_textSize      | ```app:otp_textSize``` |
+| background_color      | ```app:background_color``` |
+| background_color      | ```app:background_color``` |
+
 That's pretty much it.
