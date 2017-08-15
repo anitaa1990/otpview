@@ -1,6 +1,6 @@
 # otpview
 
-A custom view class to enter a four digit code usually in cases of authentication.
+A custom view class to enter a four digit code which is used often these days for authentication.
 
 
 <h2>How to use the library</h2>
