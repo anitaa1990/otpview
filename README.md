@@ -24,6 +24,12 @@ dependencies {
 
 <h2>How to use the library</h2>
 
+Add the below line to the root layout of your xml file:
+
+```xml
+xmlns:app="http://schemas.android.com/apk/res-auto"
+```
+
 ```xml
 .....
        <com.airloyal.black.views.CustomOtpView
