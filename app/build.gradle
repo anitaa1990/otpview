@@ -1,29 +1,15 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'
 
-ext {
-    bintrayRepo = 'CustomOTPView'
-    bintrayName = 'otpview'
 
-    publishedGroupId = 'com.an.otpview'
-    libraryName = 'otpview'
-    artifact = 'otpview'
-
-    libraryDescription = 'A custom view class to enter a four digit code which is used often these days for authentication.'
-
-    siteUrl = 'https://github.com/anitaa1990/otpview'
-    gitUrl = 'https://github.com/anitaa1990/otpview'
-
-    libraryVersion = '1.0.1'
-
-    developerId = 'murthyanitaa'
-    developerName = 'Anitaa Murthy'
-    developerEmail = 'murthyanitaa@gmail.com'
-
-    licenseName = 'The Apache Software License, Version 2.0'
-    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
-    allLicenses = ["Apache-2.0"]
-    override = true
-
+publish {
+    userOrg = 'murthyanitaa'
+    repoName = 'CustomOTPView'
+    groupId = 'com.an.otpview'
+    artifactId = 'otpview'
+    publishVersion = '0.1.0'
+    desc = 'A custom view class to enter a four digit code which is used often these days for authentication.'
+    website = 'https://github.com/anitaa1990/otpview'
 }
 
 android {
@@ -42,6 +28,10 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+    lintOptions {
+            abortOnError false
+        }
 }
 
 dependencies {
@@ -52,9 +42,3 @@ dependencies {
     compile 'com.android.support:appcompat-v7:26.0.0-alpha1'
     testCompile 'junit:junit:4.12'
 }
-
-
-//Add these lines to publish library to bintray. This is the readymade scripts made by github user nuuneoi to make uploading to bintray easy.
-//Place it at the end of the file
-apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
-apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
