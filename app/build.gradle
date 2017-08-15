@@ -7,22 +7,23 @@ ext {
     publishedGroupId = 'com.an.otpview'
     libraryName = 'otpview'
     artifact = 'otpview'
-    artifactId = 'otpview'
 
     libraryDescription = 'A custom view class to enter a four digit code which is used often these days for authentication.'
 
     siteUrl = 'https://github.com/anitaa1990/otpview'
     gitUrl = 'https://github.com/anitaa1990/otpview'
 
-    libraryVersion = '1.0.0'
+    libraryVersion = '1.0.1'
 
-    developerId = 'developerId'
+    developerId = 'murthyanitaa'
     developerName = 'Anitaa Murthy'
     developerEmail = 'murthyanitaa@gmail.com'
 
     licenseName = 'The Apache Software License, Version 2.0'
     licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
     allLicenses = ["Apache-2.0"]
+    override = true
+
 }
 
 android {
