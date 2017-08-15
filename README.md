@@ -2,7 +2,25 @@
 <img src="https://camo.githubusercontent.com/7a097bb07d47506d643804b222bb8ad2be336498/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4150492d392532422d6f72616e67652e7376673f7374796c653d666c6174" alt="API" data-canonical-src="https://img.shields.io/badge/API-9%2B-orange.svg?style=flat" style="max-width:100%;">
 
 A custom view class to enter a four digit code which is used often these days for authentication. 
-You can download the aar file from the release folder in this project.</br>
+
+<h2>How to integrate the library in your app?</h2>
+<b>Gradle Dependecy</b></br>
+
+```gradle
+dependencies {
+        compile 'com.an.otpview:otpview:0.1.0'
+}
+```
+
+<b>Maven Dependecy</b></br>
+```xml
+<dependency>
+  <groupId>com.an.otpview</groupId>
+  <artifactId>otpview</artifactId>
+  <version>0.1.0</version>
+  <type>pom</type>
+</dependency>
+```
 
 <h2>How to use the library</h2>
 
