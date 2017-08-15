@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="OtpView">
+        <attr name="android:inputType"/>
+        <attr name="otp_maxLength" format="integer"/>
+        <attr name="otp_textSize" format="dimension"/>
+
+        <attr name="otp_gravity">
+            <flag name="bottom" value="80" />
+            <flag name="center" value="17" />
+            <flag name="center_horizontal" value="1" />
+            <flag name="center_vertical" value="16" />
+            <flag name="clip_horizontal" value="8" />
+            <flag name="clip_vertical" value="128" />
+            <flag name="end" value="8388613" />
+            <flag name="fill" value="119" />
+            <flag name="fill_horizontal" value="7" />
+            <flag name="fill_vertical" value="112" />
+            <flag name="left" value="3" />
+            <flag name="right" value="5" />
+            <flag name="start" value="8388611" />
+            <flag name="top" value="48" />
+        </attr>
+
+        <attr name="otp_textColor" format="color"/>
+        <attr name="background_bg" format="integer" />
+        <attr name="background_color" format="color" />
+        <attr name="otp" format="string"/>
+    </declare-styleable>
+
+</resources>
