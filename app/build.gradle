@@ -2,12 +2,12 @@ apply plugin: 'com.android.library'
 
 ext {
     bintrayRepo = 'CustomOTPView'
-    bintrayName = 'CustomOTPView'
+    bintrayName = 'otpview'
 
     publishedGroupId = 'com.an.otpview'
-    libraryName = 'CustomOTPView'
-    artifact = 'CustomOTPView'
-    artifactId = 'CustomOTPView'
+    libraryName = 'otpview'
+    artifact = 'otpview'
+    artifactId = 'otpview'
 
     libraryDescription = 'A custom view class to enter a four digit code which is used often these days for authentication.'
 
