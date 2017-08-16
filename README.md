@@ -32,7 +32,7 @@ xmlns:app="http://schemas.android.com/apk/res-auto"
 
 ```xml
 .....
-       <com.airloyal.black.views.CustomOtpView
+       <com.an.otpview
             android:id="@+id/otp_view"
             app:background_color="@android/color/black"
             android:inputType="number"
