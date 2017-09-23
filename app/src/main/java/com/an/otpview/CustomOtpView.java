@@ -100,10 +100,10 @@ public class CustomOtpView extends LinearLayout {
             Log.e(TAG, "OTP doesn't match INPUT TYPE");
             return;
         }
-        otpEdit1.setText(otp.charAt(0));
-        otpEdit2.setText(otp.charAt(1));
-        otpEdit3.setText(otp.charAt(2));
-        otpEdit4.setText(otp.charAt(3));
+        otpEdit1.setText(String.format("%s",otp.charAt(0)));
+        otpEdit2.setText(String.format("%s",otp.charAt(1)));
+        otpEdit3.setText(String.format("%s",otp.charAt(2)));
+        otpEdit4.setText(String.format("%s",otp.charAt(3)));
     }
 
     private void styleEditTexts(TypedArray styles) {
